@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "",
+          "examplePhrases": [
+            "Alexa open raceline tv"
+          ],
+          "name": "RaceLine_TV",
+          "description": "A video to present our project.",
+          "smallIconUri": "https://s3.eu-west-3.amazonaws.com/racelinetv/small_logo.png",
+          "largeIconUri": "https://s3.eu-west-3.amazonaws.com/racelinetv/large_logo.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special testing instructions.",
+      "category": "SELF_IMPROVEMENT",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE"
+          },
+          {
+            "type": "VIDEO_APP"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://example.com/terms",
+          "privacyPolicyUrl": "http://example.com/privacy"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

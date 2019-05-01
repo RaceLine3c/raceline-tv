@@ -1,0 +1,15 @@
+{
+    "name": "raceline-tv",
+    "version": "1.0.0",
+    "description": "Basic Alexa Skill for plays a presentation video.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "RaceLine",
+    "license": "ISC",
+    "dependencies": {
+        "ask-sdk-core": "^2.0.0",
+        "ask-sdk-model": "^1.0.0"
+    }
+}

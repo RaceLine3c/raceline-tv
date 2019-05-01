@@ -1,0 +1,44 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.b8000452-8923-4f50-9ce7-14b978a60509",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:511300323609:function:ask-custom-RaceLine_TV-default"
+              }
+            }
+          }
+        }
+      },
+      "in_skill_products": [],
+      "resources": {
+        "manifest": {
+          "eTag": "f8e08058898ef30c591c5413954d402c"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "547958031dc247c4d534852e3411c99c"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:511300323609:function:ask-custom-RaceLine_TV-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-RaceLine_TV-default",
+            "handler": "index.handler",
+            "revisionId": "ed3930af-9ea3-4112-a167-100f72a3e1f2",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
